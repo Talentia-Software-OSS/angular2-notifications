@@ -1,26 +1,21 @@
 {
-  "name": "angular2-notifications",
+  "name": "@talentia/angular2-notifications",
   "typings": "./dist/index.d.ts",
   "version": "12.0.3",
-  "scripts": {
-    "build": "ng build @talentia/angular2-notifications --configuration production",
-    "demo": "ng build demo-app --configuration production",
-    "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n angular2-notifications -d docs --hideGenerator",
-    "docs:serve": "npm run docs:build -- -s",
-    "docs:watch": "npm run docs:build -- -s -w",
-    "lint": "ng lint",
-    "publish_lib": "npm publish dist/angular2-notifications",
-    "test": "npm run lint && npm run build"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/flauc/angular2-notifications.git"
+    "url": "https://github.com/Talentia-Software-OSS/angular2-notifications.git"
   },
   "author": {
-    "name": "Filip Lauc",
-    "email": "filip.lauc93@gmail.com"
+    "name": "Leonardo Cavone",
+    "url": "https://github.com/Talentia-Software-OSS"
   },
+  "contributors": [
+    {
+      "name": "Filip Lauc",
+      "email": "filip.lauc93@gmail.com"
+    }
+  ],
   "keywords": [
     "Angular",
     "Angular 2",
@@ -31,17 +26,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/username/repo/issues"
+    "url": "https://github.com/Talentia-Software-OSS/angular2-notifications/issues"
   },
-  "homepage": "https://github.com/flauc/angular2-notifications",
-  "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0"
-  },
-  "dependencies": {
-    "@angular/forms": "15.2.10",
-    "tslib": "^2.3.0"
-  },
+  "homepage": "https://github.com/Talentia-Software-OSS/angular2-notifications",
+  "peerDependencies": {},
+  "dependencies": {},
   "devDependencies": {
     "@angular-devkit/build-angular": "15.2.10",
     "@angular-eslint/builder": "15.2.1",

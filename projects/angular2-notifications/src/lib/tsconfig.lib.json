@@ -19,7 +19,7 @@
     "compilationMode": "partial"
   },
   "exclude": [
-    "test.ts",
+    "src/test.ts",
     "**/*.spec.ts"
   ]
 }
